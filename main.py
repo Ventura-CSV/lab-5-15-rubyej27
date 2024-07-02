@@ -1,5 +1,9 @@
 
 def consonant(strval):
+    for char in strval:
+        if char.lower() not in 'aeiou' and char.isalpha():
+            yield char
+    
    ##################################################
    # make your code
    ##################################################
